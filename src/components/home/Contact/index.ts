@@ -1,0 +1,1 @@
+export { Contatc } from './Contatc'
