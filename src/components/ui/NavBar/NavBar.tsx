@@ -19,7 +19,7 @@ export function NavBar(){
                     <Link href={'/home/auth/login'}>Login</Link>
                 </li>
                 <li className={'hover:text-sky-500 '}>
-                    <Link href={'/home/information'} >informacions</Link>
+                    <Link href={'/home/information'}>informacions</Link>
 
                 </li>
                 <li className={'hover:text-sky-500 '}>

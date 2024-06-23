@@ -21,10 +21,11 @@ export default function RootLayout({
         <ThemeProvider>
           <section className={`${inter.className} dark:bg-[#020e21] bg-slate-200`}>
                 <NavBar />
-                {children}
+                <main className={'h-screen mx-auto'}>
+                    {children}
+                </main>s
               <footer className={''}>
                 <p>© {new Date().getFullYear()} My Company</p>
-
               </footer>
           </section>
         </ThemeProvider>
